@@ -15,8 +15,8 @@ class __TwigTemplate_536b1d8e33d2c11e2d91c1235fb7974bc1036b942c138fc35a860accdc6
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_693006835bbbc24ec76bab754b4146d252c3c7f05a554e1867b6278ebe871ad8 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_693006835bbbc24ec76bab754b4146d252c3c7f05a554e1867b6278ebe871ad8->enter($__internal_693006835bbbc24ec76bab754b4146d252c3c7f05a554e1867b6278ebe871ad8_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@Framework/Form/checkbox_widget.html.php"));
+        $__internal_2279fef77cffc1088397c215c872700235adab54ff557d07bab5691aaa4bd5cb = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_2279fef77cffc1088397c215c872700235adab54ff557d07bab5691aaa4bd5cb->enter($__internal_2279fef77cffc1088397c215c872700235adab54ff557d07bab5691aaa4bd5cb_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@Framework/Form/checkbox_widget.html.php"));
 
         // line 1
         echo "<input type=\"checkbox\"
@@ -26,7 +26,7 @@ class __TwigTemplate_536b1d8e33d2c11e2d91c1235fb7974bc1036b942c138fc35a860accdc6
 />
 ";
         
-        $__internal_693006835bbbc24ec76bab754b4146d252c3c7f05a554e1867b6278ebe871ad8->leave($__internal_693006835bbbc24ec76bab754b4146d252c3c7f05a554e1867b6278ebe871ad8_prof);
+        $__internal_2279fef77cffc1088397c215c872700235adab54ff557d07bab5691aaa4bd5cb->leave($__internal_2279fef77cffc1088397c215c872700235adab54ff557d07bab5691aaa4bd5cb_prof);
 
     }
 
@@ -55,6 +55,6 @@ class __TwigTemplate_536b1d8e33d2c11e2d91c1235fb7974bc1036b942c138fc35a860accdc6
     <?php if (strlen(\$value) > 0): ?> value=\"<?php echo \$view->escape(\$value) ?>\"<?php endif ?>
     <?php if (\$checked): ?> checked=\"checked\"<?php endif ?>
 />
-", "@Framework/Form/checkbox_widget.html.php", "/var/www/html/testMovember/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Resources/views/Form/checkbox_widget.html.php");
+", "@Framework/Form/checkbox_widget.html.php", "/var/www/html/MapMovember/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Resources/views/Form/checkbox_widget.html.php");
     }
 }

@@ -15,8 +15,8 @@ class __TwigTemplate_7a130a705a3e452a840b82d2b0e14aa3f660aae970a266df419fd62bf70
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_73102502bac75f3dd81165b502bccf56fd6f88451175826b590192bb4602286f = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_73102502bac75f3dd81165b502bccf56fd6f88451175826b590192bb4602286f->enter($__internal_73102502bac75f3dd81165b502bccf56fd6f88451175826b590192bb4602286f_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "TwigBundle:Exception:error.txt.twig"));
+        $__internal_e2631f6b0db394b3401a18bad8e103041fb79f9b418cdee8f61e4312bea4397b = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_e2631f6b0db394b3401a18bad8e103041fb79f9b418cdee8f61e4312bea4397b->enter($__internal_e2631f6b0db394b3401a18bad8e103041fb79f9b418cdee8f61e4312bea4397b_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "TwigBundle:Exception:error.txt.twig"));
 
         // line 1
         echo "Oops! An Error Occurred
@@ -33,7 +33,7 @@ Something is broken. Please let us know what you were doing when this error occu
 We will fix it as soon as possible. Sorry for any inconvenience caused.
 ";
         
-        $__internal_73102502bac75f3dd81165b502bccf56fd6f88451175826b590192bb4602286f->leave($__internal_73102502bac75f3dd81165b502bccf56fd6f88451175826b590192bb4602286f_prof);
+        $__internal_e2631f6b0db394b3401a18bad8e103041fb79f9b418cdee8f61e4312bea4397b->leave($__internal_e2631f6b0db394b3401a18bad8e103041fb79f9b418cdee8f61e4312bea4397b_prof);
 
     }
 
@@ -69,6 +69,6 @@ The server returned a \"{{ status_code }} {{ status_text }}\".
 
 Something is broken. Please let us know what you were doing when this error occurred.
 We will fix it as soon as possible. Sorry for any inconvenience caused.
-", "TwigBundle:Exception:error.txt.twig", "/var/www/html/testMovember/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/Resources/views/Exception/error.txt.twig");
+", "TwigBundle:Exception:error.txt.twig", "/var/www/html/MapMovember/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/Resources/views/Exception/error.txt.twig");
     }
 }

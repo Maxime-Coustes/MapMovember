@@ -15,15 +15,15 @@ class __TwigTemplate_1a110b4647c5fa3d75b07e261e1829a0985833c5f8e795385e546119de0
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_6336d5ba2dbc58d8da9b64a06103c4c14ed4c99f16eb6d486a51d160c5e03e17 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_6336d5ba2dbc58d8da9b64a06103c4c14ed4c99f16eb6d486a51d160c5e03e17->enter($__internal_6336d5ba2dbc58d8da9b64a06103c4c14ed4c99f16eb6d486a51d160c5e03e17_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "TwigBundle:Exception:error.json.twig"));
+        $__internal_7e3c722fe47fc1dc6641047c9cdf8068cb9f036d6e85b347e3c687c2f4b30c1b = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_7e3c722fe47fc1dc6641047c9cdf8068cb9f036d6e85b347e3c687c2f4b30c1b->enter($__internal_7e3c722fe47fc1dc6641047c9cdf8068cb9f036d6e85b347e3c687c2f4b30c1b_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "TwigBundle:Exception:error.json.twig"));
 
         // line 1
         echo twig_jsonencode_filter(array("error" => array("code" => (isset($context["status_code"]) ? $context["status_code"] : $this->getContext($context, "status_code")), "message" => (isset($context["status_text"]) ? $context["status_text"] : $this->getContext($context, "status_text")))));
         echo "
 ";
         
-        $__internal_6336d5ba2dbc58d8da9b64a06103c4c14ed4c99f16eb6d486a51d160c5e03e17->leave($__internal_6336d5ba2dbc58d8da9b64a06103c4c14ed4c99f16eb6d486a51d160c5e03e17_prof);
+        $__internal_7e3c722fe47fc1dc6641047c9cdf8068cb9f036d6e85b347e3c687c2f4b30c1b->leave($__internal_7e3c722fe47fc1dc6641047c9cdf8068cb9f036d6e85b347e3c687c2f4b30c1b_prof);
 
     }
 
@@ -53,6 +53,6 @@ class __TwigTemplate_1a110b4647c5fa3d75b07e261e1829a0985833c5f8e795385e546119de0
     public function getSourceContext()
     {
         return new Twig_Source("{{ { 'error': { 'code': status_code, 'message': status_text } }|json_encode|raw }}
-", "TwigBundle:Exception:error.json.twig", "/var/www/html/testMovember/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/Resources/views/Exception/error.json.twig");
+", "TwigBundle:Exception:error.json.twig", "/var/www/html/MapMovember/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/Resources/views/Exception/error.json.twig");
     }
 }

@@ -15,8 +15,8 @@ class __TwigTemplate_c57fdc123fbaffb6e55d4d19856b8a1c936b6a881668869a11ca5081b37
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_83c5767abb7602a2e074eda720bfa9f85c62dd7198da332492a9169f72ba2e3e = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_83c5767abb7602a2e074eda720bfa9f85c62dd7198da332492a9169f72ba2e3e->enter($__internal_83c5767abb7602a2e074eda720bfa9f85c62dd7198da332492a9169f72ba2e3e_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "TwigBundle:Exception:traces.txt.twig"));
+        $__internal_fcdd5286aa23688920c10368f468f12431154540cd50f2b2eee0c64091bd4230 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_fcdd5286aa23688920c10368f468f12431154540cd50f2b2eee0c64091bd4230->enter($__internal_fcdd5286aa23688920c10368f468f12431154540cd50f2b2eee0c64091bd4230_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "TwigBundle:Exception:traces.txt.twig"));
 
         // line 1
         if (twig_length_filter($this->env, $this->getAttribute((isset($context["exception"]) ? $context["exception"] : $this->getContext($context, "exception")), "trace", array()))) {
@@ -35,7 +35,7 @@ class __TwigTemplate_c57fdc123fbaffb6e55d4d19856b8a1c936b6a881668869a11ca5081b37
             $context = array_intersect_key($context, $_parent) + $_parent;
         }
         
-        $__internal_83c5767abb7602a2e074eda720bfa9f85c62dd7198da332492a9169f72ba2e3e->leave($__internal_83c5767abb7602a2e074eda720bfa9f85c62dd7198da332492a9169f72ba2e3e_prof);
+        $__internal_fcdd5286aa23688920c10368f468f12431154540cd50f2b2eee0c64091bd4230->leave($__internal_fcdd5286aa23688920c10368f468f12431154540cd50f2b2eee0c64091bd4230_prof);
 
     }
 
@@ -70,6 +70,6 @@ class __TwigTemplate_c57fdc123fbaffb6e55d4d19856b8a1c936b6a881668869a11ca5081b37
 
 {% endfor %}
 {% endif %}
-", "TwigBundle:Exception:traces.txt.twig", "/var/www/html/testMovember/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/Resources/views/Exception/traces.txt.twig");
+", "TwigBundle:Exception:traces.txt.twig", "/var/www/html/MapMovember/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/Resources/views/Exception/traces.txt.twig");
     }
 }

@@ -15,8 +15,8 @@ class __TwigTemplate_3af0cb6a47ec1cf93defe4557c0a80725e59cbf951393eb1a1504bc2ea0
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_6e6243b056b02cbc71906817c2b41eb7227c76c5e6ee350f7c2791c5c7edd987 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_6e6243b056b02cbc71906817c2b41eb7227c76c5e6ee350f7c2791c5c7edd987->enter($__internal_6e6243b056b02cbc71906817c2b41eb7227c76c5e6ee350f7c2791c5c7edd987_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "TwigBundle:Exception:exception.html.twig"));
+        $__internal_e90140666279506affa1f91cad776a1e00ae511ca40e15bb3607e636e0227a71 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_e90140666279506affa1f91cad776a1e00ae511ca40e15bb3607e636e0227a71->enter($__internal_e90140666279506affa1f91cad776a1e00ae511ca40e15bb3607e636e0227a71_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "TwigBundle:Exception:exception.html.twig"));
 
         // line 1
         echo "<div class=\"block-exception\">
@@ -235,7 +235,7 @@ class __TwigTemplate_3af0cb6a47ec1cf93defe4557c0a80725e59cbf951393eb1a1504bc2ea0
 //]]></script>
 ";
         
-        $__internal_6e6243b056b02cbc71906817c2b41eb7227c76c5e6ee350f7c2791c5c7edd987->leave($__internal_6e6243b056b02cbc71906817c2b41eb7227c76c5e6ee350f7c2791c5c7edd987_prof);
+        $__internal_e90140666279506affa1f91cad776a1e00ae511ca40e15bb3607e636e0227a71->leave($__internal_e90140666279506affa1f91cad776a1e00ae511ca40e15bb3607e636e0227a71_prof);
 
     }
 
@@ -387,6 +387,6 @@ class __TwigTemplate_3af0cb6a47ec1cf93defe4557c0a80725e59cbf951393eb1a1504bc2ea0
         icon2.style.display = display1;
     }
 //]]></script>
-", "TwigBundle:Exception:exception.html.twig", "/var/www/html/testMovember/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/Resources/views/Exception/exception.html.twig");
+", "TwigBundle:Exception:exception.html.twig", "/var/www/html/MapMovember/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/Resources/views/Exception/exception.html.twig");
     }
 }

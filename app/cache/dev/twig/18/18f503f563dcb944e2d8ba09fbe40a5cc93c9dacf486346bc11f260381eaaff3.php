@@ -15,8 +15,8 @@ class __TwigTemplate_3394362c5e875b482b44f600439f4b82cffb9202b90575766f353b6eba2
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_b507e80d52fc4b1f978405712b41c89a73672c6bb157d79793881c90507dd009 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_b507e80d52fc4b1f978405712b41c89a73672c6bb157d79793881c90507dd009->enter($__internal_b507e80d52fc4b1f978405712b41c89a73672c6bb157d79793881c90507dd009_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "TwigBundle:Exception:error.xml.twig"));
+        $__internal_667a0e0af5da7a7af96c1effe87939d30c72d79e41278d007f339462c33729a3 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_667a0e0af5da7a7af96c1effe87939d30c72d79e41278d007f339462c33729a3->enter($__internal_667a0e0af5da7a7af96c1effe87939d30c72d79e41278d007f339462c33729a3_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "TwigBundle:Exception:error.xml.twig"));
 
         // line 1
         echo "<?xml version=\"1.0\" encoding=\"";
@@ -31,7 +31,7 @@ class __TwigTemplate_3394362c5e875b482b44f600439f4b82cffb9202b90575766f353b6eba2
         echo "\" />
 ";
         
-        $__internal_b507e80d52fc4b1f978405712b41c89a73672c6bb157d79793881c90507dd009->leave($__internal_b507e80d52fc4b1f978405712b41c89a73672c6bb157d79793881c90507dd009_prof);
+        $__internal_667a0e0af5da7a7af96c1effe87939d30c72d79e41278d007f339462c33729a3->leave($__internal_667a0e0af5da7a7af96c1effe87939d30c72d79e41278d007f339462c33729a3_prof);
 
     }
 
@@ -63,6 +63,6 @@ class __TwigTemplate_3394362c5e875b482b44f600439f4b82cffb9202b90575766f353b6eba2
         return new Twig_Source("<?xml version=\"1.0\" encoding=\"{{ _charset }}\" ?>
 
 <error code=\"{{ status_code }}\" message=\"{{ status_text }}\" />
-", "TwigBundle:Exception:error.xml.twig", "/var/www/html/testMovember/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/Resources/views/Exception/error.xml.twig");
+", "TwigBundle:Exception:error.xml.twig", "/var/www/html/MapMovember/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/Resources/views/Exception/error.xml.twig");
     }
 }

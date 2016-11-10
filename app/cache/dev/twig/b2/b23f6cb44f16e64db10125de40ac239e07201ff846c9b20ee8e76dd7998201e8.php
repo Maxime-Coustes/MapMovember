@@ -22,20 +22,20 @@ class __TwigTemplate_b405831e04826b5b6360d64a235ee6a30121b5ff9853fd8daf5828d8909
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_97357bf7119154c47138541d4bab387dff945250a535c11626a78ddf52139ca7 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_97357bf7119154c47138541d4bab387dff945250a535c11626a78ddf52139ca7->enter($__internal_97357bf7119154c47138541d4bab387dff945250a535c11626a78ddf52139ca7_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "testMovemberBundle:testmovember:index.html.twig"));
+        $__internal_ebb76c53421d477b83b685dc5ef52f523ed31f28c4adb81d446dff611bcd4352 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_ebb76c53421d477b83b685dc5ef52f523ed31f28c4adb81d446dff611bcd4352->enter($__internal_ebb76c53421d477b83b685dc5ef52f523ed31f28c4adb81d446dff611bcd4352_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "testMovemberBundle:testmovember:index.html.twig"));
 
         $this->parent->display($context, array_merge($this->blocks, $blocks));
         
-        $__internal_97357bf7119154c47138541d4bab387dff945250a535c11626a78ddf52139ca7->leave($__internal_97357bf7119154c47138541d4bab387dff945250a535c11626a78ddf52139ca7_prof);
+        $__internal_ebb76c53421d477b83b685dc5ef52f523ed31f28c4adb81d446dff611bcd4352->leave($__internal_ebb76c53421d477b83b685dc5ef52f523ed31f28c4adb81d446dff611bcd4352_prof);
 
     }
 
     // line 3
     public function block_body($context, array $blocks = array())
     {
-        $__internal_e0070c18a3a2186bd06ba0c66f77447d992851f26d625dd7834426b467b6613f = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_e0070c18a3a2186bd06ba0c66f77447d992851f26d625dd7834426b467b6613f->enter($__internal_e0070c18a3a2186bd06ba0c66f77447d992851f26d625dd7834426b467b6613f_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "testMovemberBundle:testmovember:index.html.twig"));
+        $__internal_a9de385f093bba8d73ce09202baa7e0572302c737b16dd2967c2ef212f7bf763 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_a9de385f093bba8d73ce09202baa7e0572302c737b16dd2967c2ef212f7bf763->enter($__internal_a9de385f093bba8d73ce09202baa7e0572302c737b16dd2967c2ef212f7bf763_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "testMovemberBundle:testmovember:index.html.twig"));
 
         // line 4
         echo "    <h1>Testmovembers list</h1>
@@ -45,15 +45,15 @@ class __TwigTemplate_b405831e04826b5b6360d64a235ee6a30121b5ff9853fd8daf5828d8909
         echo "    <div id=\"map\" style=\"width: 900px; height: 750px;\"></div>
 ";
         
-        $__internal_e0070c18a3a2186bd06ba0c66f77447d992851f26d625dd7834426b467b6613f->leave($__internal_e0070c18a3a2186bd06ba0c66f77447d992851f26d625dd7834426b467b6613f_prof);
+        $__internal_a9de385f093bba8d73ce09202baa7e0572302c737b16dd2967c2ef212f7bf763->leave($__internal_a9de385f093bba8d73ce09202baa7e0572302c737b16dd2967c2ef212f7bf763_prof);
 
     }
 
     // line 11
     public function block_javascripts($context, array $blocks = array())
     {
-        $__internal_81a6d87cc6040b994eab8e2933b3bed5662665e030b15111f161f2ec2a8cddea = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_81a6d87cc6040b994eab8e2933b3bed5662665e030b15111f161f2ec2a8cddea->enter($__internal_81a6d87cc6040b994eab8e2933b3bed5662665e030b15111f161f2ec2a8cddea_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "testMovemberBundle:testmovember:index.html.twig"));
+        $__internal_d70f881fef3b15ab3cdc6489c8d274fb22cc0561161ed6019c61893c91687233 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_d70f881fef3b15ab3cdc6489c8d274fb22cc0561161ed6019c61893c91687233->enter($__internal_d70f881fef3b15ab3cdc6489c8d274fb22cc0561161ed6019c61893c91687233_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "testMovemberBundle:testmovember:index.html.twig"));
 
         // line 12
         echo "
@@ -63,11 +63,26 @@ class __TwigTemplate_b405831e04826b5b6360d64a235ee6a30121b5ff9853fd8daf5828d8909
         ";
         // line 19
         echo "        var locations = [
-            ['Loulappe', 48.439171, 1.283147, 1],
-            ['Lyon',45.764043 ,4.835658999999964 , 2],
-            ['', , , ],
-            ['', , , ],
-            ['', , , ]
+            ";
+        // line 20
+        $context['_parent'] = $context;
+        $context['_seq'] = twig_ensure_traversable((isset($context["testMovembers"]) ? $context["testMovembers"] : $this->getContext($context, "testMovembers")));
+        foreach ($context['_seq'] as $context["_key"] => $context["movember"]) {
+            // line 21
+            echo "            ['";
+            echo twig_escape_filter($this->env, $this->getAttribute($context["movember"], "Adresse", array()), "html", null, true);
+            echo "', ";
+            echo twig_escape_filter($this->env, $this->getAttribute($context["movember"], "lat", array()), "html", null, true);
+            echo ", ";
+            echo twig_escape_filter($this->env, $this->getAttribute($context["movember"], "lgt", array()), "html", null, true);
+            echo "],
+            ";
+        }
+        $_parent = $context['_parent'];
+        unset($context['_seq'], $context['_iterated'], $context['_key'], $context['movember'], $context['_parent'], $context['loop']);
+        $context = array_intersect_key($context, $_parent) + $_parent;
+        // line 23
+        echo "
         ];
         var map = new google.maps.Map(document.getElementById('map'), {
             zoom: 5,
@@ -92,7 +107,7 @@ class __TwigTemplate_b405831e04826b5b6360d64a235ee6a30121b5ff9853fd8daf5828d8909
 
 ";
         
-        $__internal_81a6d87cc6040b994eab8e2933b3bed5662665e030b15111f161f2ec2a8cddea->leave($__internal_81a6d87cc6040b994eab8e2933b3bed5662665e030b15111f161f2ec2a8cddea_prof);
+        $__internal_d70f881fef3b15ab3cdc6489c8d274fb22cc0561161ed6019c61893c91687233->leave($__internal_d70f881fef3b15ab3cdc6489c8d274fb22cc0561161ed6019c61893c91687233_prof);
 
     }
 
@@ -108,7 +123,7 @@ class __TwigTemplate_b405831e04826b5b6360d64a235ee6a30121b5ff9853fd8daf5828d8909
 
     public function getDebugInfo()
     {
-        return array (  65 => 19,  59 => 12,  53 => 11,  45 => 7,  41 => 4,  35 => 3,  11 => 1,);
+        return array (  85 => 23,  72 => 21,  68 => 20,  65 => 19,  59 => 12,  53 => 11,  45 => 7,  41 => 4,  35 => 3,  11 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -140,11 +155,10 @@ class __TwigTemplate_b405831e04826b5b6360d64a235ee6a30121b5ff9853fd8daf5828d8909
         var adresse = '<?= \$adresse ?>';
         console.log(adresse);  var_dump en JS#}
         var locations = [
-            ['Loulappe', 48.439171, 1.283147, 1],
-            ['Lyon',45.764043 ,4.835658999999964 , 2],
-            ['', , , ],
-            ['', , , ],
-            ['', , , ]
+            {% for movember in testMovembers %}
+            ['{{ movember.Adresse }}', {{ movember.lat }}, {{ movember.lgt }}],
+            {% endfor %}
+
         ];
         var map = new google.maps.Map(document.getElementById('map'), {
             zoom: 5,
@@ -177,6 +191,6 @@ class __TwigTemplate_b405831e04826b5b6360d64a235ee6a30121b5ff9853fd8daf5828d8909
         </li>
     </ul>#}
 
-", "testMovemberBundle:testmovember:index.html.twig", "/var/www/html/testMovember/src/testMovemberBundle/Resources/views/testmovember/index.html.twig");
+", "testMovemberBundle:testmovember:index.html.twig", "/var/www/html/MapMovember/src/testMovemberBundle/Resources/views/testmovember/index.html.twig");
     }
 }

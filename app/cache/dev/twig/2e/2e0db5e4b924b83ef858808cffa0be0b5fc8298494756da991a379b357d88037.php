@@ -15,8 +15,8 @@ class __TwigTemplate_1345e7a7cf9af773595c3904437c7f7a15a72411ee57e91c45bfc8de174
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_046de2c0bb99fee05fce0f8146860ae6f953d8ef81c42c1028e0f3d5c68ad902 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_046de2c0bb99fee05fce0f8146860ae6f953d8ef81c42c1028e0f3d5c68ad902->enter($__internal_046de2c0bb99fee05fce0f8146860ae6f953d8ef81c42c1028e0f3d5c68ad902_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "TwigBundle:Exception:trace.html.twig"));
+        $__internal_7c8cd25607deb25c5848b268d78f20703ceb12867eea70f3b06809fa8da84b22 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_7c8cd25607deb25c5848b268d78f20703ceb12867eea70f3b06809fa8da84b22->enter($__internal_7c8cd25607deb25c5848b268d78f20703ceb12867eea70f3b06809fa8da84b22_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "TwigBundle:Exception:trace.html.twig"));
 
         // line 1
         if ($this->getAttribute((isset($context["trace"]) ? $context["trace"] : $this->getContext($context, "trace")), "function", array())) {
@@ -93,7 +93,7 @@ class __TwigTemplate_1345e7a7cf9af773595c3904437c7f7a15a72411ee57e91c45bfc8de174
 ";
         }
         
-        $__internal_046de2c0bb99fee05fce0f8146860ae6f953d8ef81c42c1028e0f3d5c68ad902->leave($__internal_046de2c0bb99fee05fce0f8146860ae6f953d8ef81c42c1028e0f3d5c68ad902_prof);
+        $__internal_7c8cd25607deb25c5848b268d78f20703ceb12867eea70f3b06809fa8da84b22->leave($__internal_7c8cd25607deb25c5848b268d78f20703ceb12867eea70f3b06809fa8da84b22_prof);
 
     }
 
@@ -144,6 +144,6 @@ class __TwigTemplate_1345e7a7cf9af773595c3904437c7f7a15a72411ee57e91c45bfc8de174
         {{ trace.file|file_excerpt(trace.line) }}
     </div>
 {% endif %}
-", "TwigBundle:Exception:trace.html.twig", "/var/www/html/testMovember/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/Resources/views/Exception/trace.html.twig");
+", "TwigBundle:Exception:trace.html.twig", "/var/www/html/MapMovember/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/Resources/views/Exception/trace.html.twig");
     }
 }
